@@ -11,22 +11,3 @@ const connection =async()=>{
 };
 module.exports = connection;
 
-
-// const {MongoClient} = require('mongodb')
-// const url= 'mongodb://localhos:27017';
-// const databaseName='Zingify'
-// const client= new MongoClient(url);
-
-// async function connection()
-// {
-//     let result = await client.connect();
-//     db= result.db(databaseName);
-//     return db.collection('users');
-  
-// }
-// const x = async ()=>{
-//     let data = await connection();
-//     console.log("Mongodb connected");
-// }
-
-// module.exports= x;
