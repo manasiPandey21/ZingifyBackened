@@ -33,27 +33,27 @@ const userSchema = new mongoose.Schema({
     name: {
         type: String,
         required: true,
-        unique: true,
+        unique: false,
     },
     age: {
         type: Number,
         required: true,
-        unique: true,
+        unique:false,
     },
     bio: {
         type: String,
         required: true,
-        unique: true,
+        unique: false,
     },
     interests: {
         type: String,
         required: true,
-        unique: true,
+        unique: false,
     },
     gender: {
         type: String,
         required: true,
-        unique: true,
+        unique: false,
     },
     mobile: {
         type: Number,
