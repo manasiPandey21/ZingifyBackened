@@ -15,15 +15,13 @@ async function connectToDatabase() {
   try {
     await mongoose.connect('mongodb://127.0.0.1:27017/Zingify');
     console.log('Connected to the database!');
-    // Do other database-related operations here
+   
   } catch (error) {
     console.error('Error connecting to the database:', error);
   }
 }
 
 connectToDatabase();
-
-//mongoose.connect('mongodb://localhost:27017/e-comm');
 const userSchema = new mongoose.Schema({
     // fid: {
     //     type: String,

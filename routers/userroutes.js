@@ -35,7 +35,7 @@ router.patch('/update/:id', async (req, res) => {
         res.status(400).json({ message: error.message });
     }
 });
-//Delete by ID Method
+
 router.delete('/delete/:id', async (req, res) => {
     try {
         const id = req.params.id;
