@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 
 const connection =async()=>{
     try{
-        await mongoose.connect('mongodb://127.0.0.1:27017/Zingify')
+        await mongoose.connect('mongodb://127.0.0.1:27017/ZingifyApp')
     console.log("MongoDB connected")
     }catch(error){
         console.log("connection failed");

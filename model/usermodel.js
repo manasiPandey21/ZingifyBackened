@@ -2,11 +2,11 @@ const mongoose = require('mongoose');
 const db = require('../config/db');
 
 const userSchema = new mongoose.Schema({
-    // fid: {
-    //     type: String,
-    //     required: true,
-    //     unique: true,
-    // },
+    fid: {
+        type: String,
+        required: true,
+        unique: true,
+    },
     name: {
         type: String,
         required: true,
