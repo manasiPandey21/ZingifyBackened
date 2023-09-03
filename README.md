@@ -1,2 +1,6 @@
 This is readme for Zingify.
-It uses NodeJs for api's and MongoDb for database.
+It uses NodeJs for api's and MongoDb as database.
+This is readme for Zingify.
+It uses NodeJs for api's and MongoDb as database.
+This is readme for Zingify.
+It uses NodeJs for api's and MongoDb as database.
